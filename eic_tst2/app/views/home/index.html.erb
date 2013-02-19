@@ -1,0 +1,8 @@
+<h1>Home#index</h1>
+<p>spy server should process this page (do nothing but return non-empty string: see message above)</p>
+<div>
+  and should return non-empty string (and do something) for this:<%= link_to 'do stuff', home_do_stuff_path %>
+</div>
+<div>
+  and should return empty string (and do nothing because action is untracked) for this:<%= link_to 'do untracked stuff', home_do_untracked_stuff_path %>
+</div>
